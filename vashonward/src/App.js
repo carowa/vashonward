@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="">Fruitcake jelly beans cheesecake gingerbread tart sugar plum brownie dragée. Powder muffin gummies muffin marshmallow pastry chupa chups.</h1>
+            <p class="lead">Marshmallow candy fruitcake topping donut jelly-o candy canes. Tiramisu tootsie roll sesame snaps chocolate bar powder. Candy soufflé macaroon marshmallow candy canes chupa chups. Powder oat cake topping tootsie roll cheesecake. Cake marzipan sweet roll chupa chups. Cotton candy cake caramels.</p>
+          </div>
+        </div>
+        <div class="container border"></div>
       </div>
+
     );
   }
 }
