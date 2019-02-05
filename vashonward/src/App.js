@@ -90,33 +90,58 @@ class App extends Component {
             <p className="">
               Currently the program partners include:
                 </p>
-            <p className="">
-              <a href="http://www.vashonhousehold.org/">Vashon Household</a>
-              <a href="http://vashonseniorcenter.org/">Vashon Senior Center</a>
-              <a href="">Community Meals</a>
-              <a href="http://www.vashonfoodbank.org/01_Home/index.shtml">Vashon Maury Community Food Bank</a>
-              <a href="https://vashondoveproject.org/">The DOVE Project</a>
-              <a href="https://www.vashoncommunitycare.org/">Vashon Community Care</a>
-              <a href="https://ifchvashon.org/">Interfaith Council to Prevent Homelessness</a>
-              {/* not sure they have a site? */}
-              <a href="https://www.coopartnerships.org/new-blog/2018/5/31/comunidad-latina-de-vashon-organizamos">Communities of Opportunity, La Communidad</a>
-              <a href="https://vyfs.org/">Vashon Youth and Family Services</a>
+                <p>
+                  <a href="http://www.vashonhousehold.org/">Vashon Household</a>
+                  <br></br>
+                  <a href="http://vashonseniorcenter.org/">Vashon Senior Center</a>
+                  <br></br>               
+                  Community Meals
+                  <br></br>
+                  <a href="http://www.vashonfoodbank.org/01_Home/index.shtml">Vashon Maury Community Food Bank</a>
+                  <br></br>
+                  <a href="https://vashondoveproject.org/">The DOVE Project</a>
+                  <br></br>
+                  <a href="https://www.vashoncommunitycare.org/">Vashon Community Care</a>
+                  <br></br>
+                  <a href="https://ifchvashon.org/">Interfaith Council to Prevent Homelessness</a>
+                  <br></br>
+                  {/* not sure they have a site? */}
+                  Communities of Opportunity, La Communidad
+                  <br></br>
+                  <a href="https://vyfs.org/">Vashon Youth and Family Services</a>
 
-            </p>
-          </div>
-          <div className="center-xs col-xs-12 col-sm-4 col-md-offset-2 col-md-2">
-            <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Honeycrisp.jpg/440px-Honeycrisp.jpg"} alt="pears" />
-          </div>
+                </p>
+            </div>
+            <div>
+                <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Honeycrisp.jpg/440px-Honeycrisp.jpg"} alt="apples"/>
+            </div>
         </div>
-
+        
+        <div id="third-section" className="jumbotron jumbotron-fluid">
         <div className="withPadding row">
-          <div className="center-xs col-xs-12 col-sm-4 col-md-offset-2 col-md-2" >
-            <img src={""} alt="/" />
-          </div>
-          <div className="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4" id="third-section">
-            <h1 className="">Meet the team!</h1>
-            <p className="">
-              Fully run by volunteers, the food access partnership is made of chefs, farmers, philanthropists, and activists.
+            <div className="center-xs col-xs-12 col-sm-4 col-md-offset-2 col-md-2" >
+                <img src={""} alt="/"/>
+            </div>
+            <div className="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4" id="third-section">
+                <h1 className="">Meet the team!</h1>
+                <p className="">
+                  Fully run by volunteers, the Food Access Partnership is made of chefs, farmers, philanthropists, and activists.
+                </p>
+                <h3>About us</h3>
+                <p>
+                  Working to analyze and redesign the current currency system is a team from the University of Washington iSchool.
+                  The team consists of four members: August Carow, Katie Goulding, Cedric Ith, and Anton Zheng. All four of them are 
+                  experienced programmers and confident working in Android and iOS development, but are most interested in using 
+                  empathy to create thoughtful solutions for under-served communities. 
+                  Additionally, they all have previous industry experience bringing in diverse skills - from one member interning 
+                  on the design team for Microsoft HoloLens last summer, to another interning as a Program Manager for a Cybersecurity 
+                  team. All of them have a passion for food and are excited to delve into this problem space.
+                </p>
+                <p>If you are a resident in Vashon Island, we want to hear from you! We are seeking feedback about the current currency
+                  system for the farmers market and food stands. Please send a message to any of our emails below.
+                </p>
+                <p id="email">
+                  <i>carowa@uw.edu</i> | <i>kdgg@uw.edu</i> | <i>anton96@uw.edu</i> | <i>cedric.ith1@gmail.com</i>
                 </p>
           </div>
         </div>
@@ -143,9 +168,10 @@ class App extends Component {
           <p>
             Vashon Island Grower's Association &copy; 2019
           </p>
-        </div>
 
-      </div >
+       </div>
+      </div>
+      </div>
 
     );
   }

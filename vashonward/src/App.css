@@ -74,6 +74,18 @@
   color: #61dafb;
 }
 
+a {
+  color: blue
+}
+
+#third-section {
+  background-color:#e9ecef;
+}
+
+#footer {
+  color: darkgray;
+}
+
 #button1 {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -84,7 +96,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-left: 45%;
+}
+
+#email {
+  color: grey;
+  font-size: 13px;
 }
 
 @keyframes App-logo-spin {
