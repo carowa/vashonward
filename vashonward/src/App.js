@@ -81,7 +81,7 @@ class App extends Component {
         </div>
 
         <div className="withPadding row">
-          <div className="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4" id="second-section">
+          <div className="col-xs-12 col-sm-5 col-md-5 col-sm-offset-1 col-md-offset-2" id="second-section">
             <h2 className="">
               The Partnership also distributes vouchers for redemption at farmstands and markets on Vashon.
               Food Access Partnership partners with local non-profit organizations to ensure low resource communities
@@ -110,19 +110,26 @@ class App extends Component {
                   <br></br>
                   <a href="https://vyfs.org/">Vashon Youth and Family Services</a>
 
-                </p>
+                </p>               
             </div>
-            <div>
-                <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Honeycrisp.jpg/440px-Honeycrisp.jpg"} alt="apples"/>
+            <div className="center-xs col-xs-12 col-sm-5 col-md-3" >
+               <img src={require('./images/blueberries.png')} alt="blueberries" style={{
+                    width: '100%',
+                    marginTop: '0.83rem',
+                  }} />
             </div>
+
         </div>
         
         <div id="third-section" className="jumbotron jumbotron-fluid">
         <div className="withPadding row">
-            <div className="center-xs col-xs-12 col-sm-4 col-md-offset-2 col-md-2" >
-                <img src={""} alt="/"/>
+          <div className="center-xs col-xs-12 col-sm-5 col-sm-offset-1 col-md-offset-2 col-md-3" >
+              <img src={require('./images/volunteers.png')} alt="volunteers" style={{
+                width: '100%',
+                marginTop: '0.83rem',
+              }} />
             </div>
-            <div className="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4" id="third-section">
+            <div className="col-xs-12 col-sm-5 col-md-5" id="third-section">
                 <h1 className="">Meet the team!</h1>
                 <p className="">
                   Fully run by volunteers, the Food Access Partnership is made of chefs, farmers, philanthropists, and activists.
