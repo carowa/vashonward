@@ -1,3 +1,6 @@
+html { height: 100% }
+body { min-height: 100% }
+
 .container {
   padding-right: 20px;
   padding-left: 20px;
@@ -45,6 +48,14 @@
 }
 
 #first-section{
+  padding-left: 3rem; 
+}
+
+#second-section{
+  padding-right: 3rem;
+}
+
+#third-section{
   padding-left: 3rem; 
 }
 
