@@ -174,7 +174,9 @@ class App extends Component {
             from gernerous islanders. F.A.P, has received additional donations from the
             Wildwoods Foundation and Les Dames d'Escoffier of Seattle, effective 2016.
           </p>
-            <p>
+            <p style={{
+              marginBottom: '3rem',
+            }}>
               We encourage you to make a tax deductible contribution with cash or check at
               the Vashon Market, through the mail (VIGA, P.O. Box 2894, Vashon, 98070) or online by
               selecting the 'Donate' button below.
@@ -191,7 +193,12 @@ class App extends Component {
           <div className="container" id="footer">
             <p>
               Vashon Island Grower's Association &copy; 2019
-          </p>
+              <span class="fa fa-facebook-official" style={{
+                float: 'right',
+                color: '#3C599F',
+                lineHeight: 'inherit',
+              }}></span>
+            </p>
 
           </div>
         </div>
